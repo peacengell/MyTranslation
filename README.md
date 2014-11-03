@@ -4,8 +4,8 @@
 
 ###文件说明:
 
-每篇文章都保留了两份，英文原版和自己的翻译版本。文章采取命名格式为，年月日 + 文章英文名 + 是否是翻译版(若是就加上(translated)，原版就不加)。如：
+每篇文章都保留了两份，英文原版和自己的翻译版本。文章采取命名格式为，文章英文名 + 是否是翻译版(若是就加上(translated)，原版就不加)。如：
 
-**英文原版命名格式 : yyyy-mm-dd article_name.md**
+**英文原版命名格式 : article_name.md**
 
-**我的翻译版本命名格式 : yyyy-mm-dd article_name(translated).md**
+**我的翻译版本命名格式 : article_name(translated).md**

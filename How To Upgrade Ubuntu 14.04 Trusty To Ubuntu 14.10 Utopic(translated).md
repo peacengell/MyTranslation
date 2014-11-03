@@ -1,31 +1,30 @@
-如何将Ubuntu14.04安全的升级到14.10
+How To Upgrade Ubuntu 14.04 Trusty To Ubuntu 14.10 Utopic
 ================================================================================
-本文将讨论如何将Ubuntu14.04升级到14.10的beta版。Ubuntu14.10的最终beta版已经发布了
+Hello all! Greetings! Today, we will discuss about how to upgrade from Ubuntu 14.04 to 14.10 final beta. As you may know, Ubuntu 14.10 final beta has already been released. According to the [Ubuntu release schedule][1], the final stable version will be available today in a couple of hours.
 
-如果想从Ubuntu14.04/13.10/13.04/12.10/12.04或者更老的版本升级到14.10，只要遵循下面给出的步骤。注意，你不能直接从13.10升级到14.10。你应该想将13.10升级到14.04在从14.04升级到14.10。下面是详细步骤。
+Do you want to upgrade to Ubuntu 14.10 from Ubuntu 14.04/13.10/13,04/12,10/12.04, or older version on your system? Just follow the simple steps given below. Please note that you can’t directly upgrade from 13.10 to 14.04. First, you should upgrade from 13.10 to 14.04, and then upgrade from 14.04 to 14.10. Clear? Good. Now, Let us start the upgrade process.
 
-下面的步骤不仅能用于14.10，也兼容于一些像Lubuntu14.10，Kubuntu14.10和Xubuntu14.10等的Ubuntu衍生版本
+Though, the steps provided below are compatible for Ubuntu 14.10, It might work for other Ubuntu derivatives such as Lubuntu 14.10, Kubuntu 14.10, and Xubuntu 14.10 as well.
 
-**重要**：在升级之前，保险起见，不要忘了将你的数据在U盘或外部硬盘上保存一下。
+**Important**: Before upgrading, don’t forget to backup your important data to any external device like USB hdd or CD/DVD.
 
-### 桌面升级 ###
+### Desktop Upgrade ###
 
-在升级之前，我们要先更新系统。打开终端输入以下命令
+Before going to upgrade, we need to update the system. Open up the Terminal and enter the following commands.
 
     sudo apt-get update && sudo apt-get dist-upgrade
 
-上面的命令会下载安装最新的包。
+The above command will download and install the available latest packages.
 
-重启你的电脑以完成更新。
+Reboot your system to finish installing updates.
 
-然后输入下面的命令来升级到新的可获得的版本
+Now, enter the following command to upgrade to new available version.
 
     sudo update-manager -d
 
-软件更新器会出现并且搜索新的发行版。
+Software Updater will show up and search for the new release.
 
 After a few seconds, you will see a screen like below that saying: “**However, Ubuntu 14.10 is available now (you have 14.04)**”. Click on the button Upgrade to start upgrading to Ubuntu 14.10.
-
 
 ![](http://180016988.r.cdn77.net/wp-content/uploads/2014/10/Software-Updater_001.png)
 
@@ -102,9 +101,5 @@ Cheers!!
 via: http://www.unixmen.com/upgrade-ubuntu-14-04-trusty-ubuntu-14-10-utopic/
 
 作者：SK
-译者：[译者ID](https://github.com/译者ID)
-校对：[校对者ID](https://github.com/校对者ID)
-
-本文由 [LCTT](https://github.com/LCTT/TranslateProject) 原创翻译，[Linux中国](http://linux.cn/) 荣誉推出
 
 [1]:https://wiki.ubuntu.com/UtopicUnicorn/ReleaseSchedule
