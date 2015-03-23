@@ -1,15 +1,15 @@
-如何在ubuntu14.04上安装轻量级的Budgie桌面(v8)
+johnhoow translating...
+How to Install Lightweight Budgie ( v8) Desktop in Ubuntu 14.04
 ================================================================================
-Budgie是为Linux发行版定制的旗舰桌面，也是一个定制工程。为思想前卫的用户设计，致力于简单和简洁。它的一个巨大优势是它不是别的项目的fork版本，是从都到尾都独立的。
+Budgie is the flagship desktop of the Evolve OS Linux Distribution, and is an Evolve OS project. Designed with the modern user in mind, it focuses on simplicity and elegance. A huge advantage for the Budgie desktop is that it is not a fork of another project, but rather one written from scratch with integration in mind.
 
-[Budgie桌面][1]与GNOME栈紧密结合，使用先进的技术从而提供一个可选择的桌面体验。出于开源理念，这个桌面之后也能在别的Linux发行版中看到。
+The [Budgie Desktop][1] tightly integrates with the GNOME stack, employing underlying technologies to offer an alternative desktop experience. In the spirit of open source, the project is compatible with and available for other Linux distributions.
 
-现在Budgie能够通过面板的设置达到和GNOME2桌面相似的使用体验。
+Also note that Budgie can now emulate the look and feel of the GNOME 2 desktop, optionally, via a setting in the panel preferences.
 
-### 0.8版的特点 ###
+### Features in the 0.8 release ###
 
 - IconTasklist: Add pinning support
-- 
 - IconTasklist: Use .desktop files for quicklists
 - IconTasklist: Use .desktop files for icon resolution
 - IconTasklist: Support “attention” hint (blue blink)
@@ -37,7 +37,6 @@ Budgie是为Linux发行版定制的旗舰桌面，也是一个定制工程。为
 - If you want to read more visit the Evolve OS website.
 
 ### Installation ###
-### 安装 ###
 
 Now, we'll install our Lightweight Budgie Desktop in our Ubuntu 14.04 LTS "Trusty" distribution of Linux Operating System. First of all, we'll need to add ppa repository to our Ubuntu PC. To do so, we'll need to execute the below command in a shell or terminal.
 
